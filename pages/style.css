@@ -58,22 +58,31 @@ nav .menu{
     list-style-type: none ;
 }
 
+.menu li:hover {
+    /*text-decoration: underline 2% #ff046b;*/
+    border: 2px solid #ff046b;
+    padding-left: -5%;
+}
+
 .container{
     width: 100%;
     height: 68%;
     display: flex;
+    flex-direction: column;
 }
 
 .container-welcome{
-    border: 0px solid green;
+    border: 3px solid green;
     width: 100%;
     height: 160%;
     background-color: #d92950;
     background-image: url("../img/hero-background.jpg");
+    background-size: cover;
 }
 h1{
     text-align: center;
     font-size: 500%;
+    color: #fff;
 }
 #qualif{
     color: #ffe64d;
@@ -109,10 +118,75 @@ h1{
     color: #fff;
 }
 
+.icone-page{
+    width: 100%;
+    height: 6.5%;
+    border: 0px solid magenta;
+    display: flex;
+    justify-content: space-around;
+}
+.container-developpeurs{
+    display: flex;
+    border: 3px solid green;
+    width: 100%;
+    height: 260%;
+    background-color: #f1f0f3;
+}
+
+img{
+    border-radius: 20px;
+}
+
+#img-section{
+    width: 50%;
+    height: 60%;
+    margin-top: 5%;
+    border: 0px solid red;
+    position: relative;
+}
+
+#img-extern{
+    border: 0px solid yellowgreen;
+    border-radius: 20px;
+    margin-left: -9.5%;
+    width: 80%;
+    height: 90%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#img-intern{
+    position: relative;
+    top: -45.5%;
+    left:32.5%;
+    border: 0px solid black;
+    border-radius: 20px;
+    width: 55%;
+    height: 65%;
+    overflow: hidden;
+}
+#kda-campus{
+    width: 100%;
+    height: 100%;
+}
+#kda-cohorte{
+    width: 100%;
+    height: 100%;
+}
+
+#text-section{
+    border: 3px solid red;
+    width: 50%;
+    height: 60%;
+    display: flex;
+}
+
 footer{
     width: 100%;
     height: 85%;
-    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70%;
     background-color: #2d2d2d;
     color: #fff;
 }
