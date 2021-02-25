@@ -81,7 +81,7 @@ nav .menu{
 }
 h1{
     text-align: center;
-    font-size: 500%;
+    font-size: 5.5vw;
     color: #fff;
 }
 #qualif{
@@ -177,8 +177,53 @@ img{
 #text-section{
     border: 3px solid red;
     width: 50%;
-    height: 60%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    margin-left: -4.5%;
+}
+#text-section>h2{
+    color: #424345;
+    font-size: 200%;
+}
+
+.img-col1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-col1>p{
+    border: 3px solid orangered;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#source-code{
+    width: 25%;
+    height: 55%;
+}
+#chat{
+    width: 25%;
+    height: 55%;
+}
+#lang-maternelle{
+    margin-top: -33%;
+}
+
+#cup{
+    width: 25%;
+    height: 55%;
+}
+#earth{
+    width: 25%;
+    height: 55%;
+}
+#fuseau{
+    margin-top: -33%;
 }
 
 footer{
