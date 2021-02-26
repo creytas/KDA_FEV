@@ -1,5 +1,11 @@
 @font-face{
-    font-family: "robotoBlack";
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+    
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url("../fonts/1584538824881-Montserrat-Regular.ttf") format("ttf");
     
 }
 
@@ -11,13 +17,18 @@ body{
     padding: 0px;
     width: 100vw;
     height: 100vh;
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", "Montserrat", sans-serif;
+}
+section{
+    border: 3px solid green;
 }
 header{
     background-color: #d92950;
     width: 100%;
     height: 12.5%;
     display: flex;
+    position: fixed;
+    z-index: 5;
 }
 nav{
     border: 0px solid black;
@@ -38,6 +49,7 @@ nav{
 
 nav .menu{
     justify-content: end;
+    font-family: "Roboto", sans-serif;
 }
 
 #logo-kda{
@@ -66,7 +78,7 @@ nav .menu{
 
 .container{
     width: 100%;
-    height: 300%;
+    height: 480%;
     display: flex;
     flex-direction: column;
 }
@@ -74,18 +86,21 @@ nav .menu{
 .container-welcome{
     border: 0px solid green;
     width: 100%;
-    height: 160%;
+    height: 23.5%;
     background-color: #d92950;
     background-image: url("../img/hero-background.jpg");
     background-size: cover;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
-h1{
+#welcome{
     text-align: center;
     font-size: 5.5vw;
     color: #fff;
 }
 h2{
-    font-size: 2.5vw;    
+    font-size: 2.5vw;
+    color: #fff;    
 }
 #qualif{
     color: #ffe64d;
@@ -103,6 +118,7 @@ h2{
     border-radius: 10px;
     background-color: #fff;
     margin-top: 15%;
+    margin-left: 1%;
     padding: 2.5%;
     text-decoration: none;
     color: #d92950;
@@ -117,27 +133,31 @@ h2{
     width: 55%;
     text-align: center;
     margin-left: 22%;
-    margin-top: 3%;
+    margin-top:0.5%;
     color: #fff;
 }
 
 .icone-page{
-    width: 100%;
-    height: 6.5%;
+    width: 80%;
+    height: 5%;
     border: 0px solid magenta;
     display: flex;
     justify-content: space-around;
+    margin-top: 0.5%;
+    margin-left: 8.5%;
 }
 .container-developpeurs{
     display: flex;
     border: 0px solid green;
     width: 100%;
-    height: 260%;
+    height: 35%;
     background-color: #f1f0f3;
+    margin-top: -1%;
+    margin-bottom: -25.5%;
 }
 
 img{
-    border-radius: 20px;
+    border-style: none;
 }
 
 #img-section{
@@ -152,20 +172,20 @@ img{
     border: 0px solid yellowgreen;
     border-radius: 20px;
     margin-left: -9.5%;
-    width: 80%;
-    height: 90%;
+    width: 65%;
+    height: 75%;
     background-size: cover;
     overflow: hidden;
 }
 
 #img-intern{
     position: relative;
-    top: -45.5%;
-    left:32.5%;
+    top: -36%;
+    left:21.5%;
     border: 0px solid black;
     border-radius: 20px;
-    width: 55%;
-    height: 65%;
+    width: 39%;
+    height: 40%;
     overflow: hidden;
 }
 #kda-campus{
@@ -179,19 +199,20 @@ img{
 
 #text-section{
     border: 0px solid red;
-    width: 45%;
+    width: 55%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: -4.5%;
+    margin-top: 3%;
+    margin-left: -14.5%;
 }
-#text-section>h2{
+#dev{
     color: #424345;
     font-size: 200%;
 }
 
 .img-col1{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -204,54 +225,148 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #444547;
 }
+
 #source-code{
-    width: 25%;
-    height: 55%;
+    width: 15%;
+    height: 65.5%;
+    border-bottom: 2px solid #f50000;
+    padding-bottom: 5%;
+}
+#qualif-developpeur{
+    width: 100%;
+    height: 20%;
 }
 #chat{
-    width: 25%;
-    height: 55%;
+    width: 15%;
+    height: 65.5%;
+    border-bottom: 2px solid #f50000;
+    padding-bottom: 5%;
 }
 #lang-maternelle{
     margin-top: -33%;
+    width: 100%;
+    height: 20%;
 }
 
 #cup{
-    width: 25%;
-    height: 55%;
+    width: 15%;
+    height: 65.5%;
+    border-bottom: 2px solid #f50000;
+    padding-bottom: 5%;
+    
 }
 #prix{
-    margin-left: 10%;
+    margin-left: 45%;
+    width: 100%;
+    height: 20%;
 }
 
 #earth{
-    width: 25%;
-    height: 55%;
+    width: 15%;
+    height: 65.5%;
+    border-bottom: 2px solid #f50000;
+    padding-bottom: 5%;
 }
 #fuseau{
     width: 100%;
+    height: 20%;
     margin-top: -33%;
-    margin-left: 10%;
+    margin-left: 45%;
 }
 
-.container-work{
+.container-partnair{
     background-color: #d92950;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    border: 3px solid green;
+    border: 0px solid green;
     width: 100%;
-    height: 100%;
+    height: 30%;
+    margin-bottom: -25%;
 }
 .slide{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .slide-items{
-    width: 100%;
-    height: 100%;
+    border:0px solid palegoldenrod;
+    width: 80%;
+    height: 50%;
+    margin-top: 2%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide-item{
+    border:0px solid steelblue;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 35.5%;
+}
+
+.container-accompagnement{
+    border: 0px solid green;
+    background-color: #f1eff3;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #421e4b;
+}
+
+.col-projet{
+    width: 73.5%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+#projet{
+    font-size: 2.5vw;
+    color: #3a1543;
+}
+
+h3{
+    color: #e3003e;
+}
+
+.col-projet div{
+    width: 99%;
+    height: 71%;
+    padding: 1%;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#realisation{
+    border-top: 4px solid #faf55a;
+}
+#integration{
+    border-top: 4px solid #e62f62;
+    margin-left: 2%;
+}
+
+.col-projet a{
+    align-items: center;
+    justify-content: space-around;   
+    border: 2px solid #d92950;
+    border-radius: 10px;
+    background-color: #d92950;
+    margin-top: 15%;
+    padding: 2.5%;
+    text-decoration: none;
+    color: #fff;
 }
 
 footer{
