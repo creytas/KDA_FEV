@@ -147,13 +147,53 @@
         </section>
         <section class="container-media">
             <h2 id="media">Kinshasa Digital dans les médias</h2>
-
+            <div>
+                <img src="img/medias/jeuneafr.png" alt="jeune afrique" id="jeuneaf">
+                <img src="img/medias/detijd.png" alt="detijd" id="detijd">
+                <img src="img/medias/frb.png" alt="fondation roi Baudoin" id="king">
+                <img src="img/medias/gsma.png" alt="gsma" id="gsma2">
+                <img src="img/medias/digitalafr.png" alt="digital africa" id="digitalaf">
+            </div>
         </section>
         <section class="container-soutien">
             <h2 id="soutien">Ils nous soutiennent</h2>
         </section>
         <section class="container-contact">
-            <h2 id="contact">Nous accompagnons vos projets</h2>
+            <h2 id="contact">Formulaire de contact</h2>
+            <p>Si vous souhaitez vous pré-inscrire a la Kinshasa Digital Academy veuillez remplir le <span>formulaire de pré-inscription</span></p>
+            <form>
+                <div class="form-haut">
+                    <div class="souform">
+                        <label for="title">Quel titre vous décrit le mieux?</label>
+                        <select name="title" id="title">
+                            <option value="0"></option>
+                        </select>
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+                        <input type="text" name="nom" id="nom" placeholder="Nom">
+                        <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="souform">
+                        <label for="secteur">Secteur d'activité</label>
+                        <select name="secteur" id="secteur">
+                            <option value="0"></option>
+                        </select>
+                        <input type="text" name="entreprise" id="entreprise" placeholder="Nom de votre entreprise">
+                        <input type="url" name="web" id="web" placeholder="Site Web">
+                        <input type="text" name="ville" id="ville" placeholder="Ville">
+                    </div>
+                </div>
+                <div class="form-bas">
+                    <label for="type-demande">Type de demande</label>
+                    <select name="type-demande" id="type-demande">
+                        <option value="0"></option>
+                    </select>
+                    <input type="text" name="demande" id="demande" placeholder="Demande: merci d'indiquer le maximum de précision afin qu;on puisse vous donner une reponse complete">
+                </div>
+                <p>Du a un nombre important de demandes, nous ne traiterons pas les messages concernant les inscriptions a la KDA, inscrivez-vous a l'aide du <a href="#">formulaire</a></p>
+                <p>Pour toute demande de devis, merci de nous donner le maximum de details possible afin de nous aider a vous repondre plus precisement possible</p>
+                <button type="submit" id="envoi">ENVOYER</button>
+            </form>
         </section>
     </main>
     <footer>

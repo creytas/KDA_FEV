@@ -93,7 +93,7 @@ nav .menu{
 
 .container{
     width: 100%;
-    height: 480%;
+    height: 805%;
     display: flex;
     flex-direction: column;
 }
@@ -190,7 +190,7 @@ h2{
     height: 65%;
     background-color: #f1f0f3;
     margin-top: -1%;
-    margin-bottom: -9.8%;
+    margin-bottom: -2.8%;
 }
 
 img{
@@ -339,8 +339,8 @@ img{
     flex-direction: column;
     border: 0px solid green;
     width: 100%;
-    height: 85%;
-    margin-bottom: -20%;
+    height: 55%;
+    padding-bottom: 9%;
 }
 #work{
     font-size: 40px;
@@ -348,8 +348,8 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     border: 0px solid greenyellow;
-    margin-top: 8%;
-    margin-bottom: -5%;
+    margin-top: 10%;
+    margin-bottom: -11%;
 }
 
 .slide{
@@ -363,7 +363,7 @@ img{
     border:0px solid palegoldenrod;
     width: 80%;
     height: 30%;
-    margin-top: 9.5%;
+    margin-top: 15%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -374,29 +374,39 @@ img{
     border:0px solid steelblue;
     display: flex;
     justify-content: center;
-    width: 55%;
-    height: 55.5%;
+    width: 48%;
+    height: 68.5%;
 }
 
 #orange{
-    width: 38.5%;
-    height: 87%;
+    width: 41.5%;
+    height: 135%;
+    margin-bottom: 25%;
+    padding-bottom: 4.5%;
 }
 #gsma{
-    width: 40%;
-    height: 55%;
+    width: 39.5%;
+    height: 110%;
+    margin-bottom: 25%;
+    padding-bottom: 4.5%;
 }
 #texaf{
-    width: 38.5%;
-    height: 80%;
+    width: 41.5%;
+    height: 135%;
+    margin-bottom: 25%;
+    padding-bottom: 4.5%;
 }
 #elan{
-    width: 58%;
-    height: 68%;
+    width: 50.5%;
+    height: 135%;
+    margin-bottom: 25%;
+    padding-bottom: 4.5%;
 }
 #digital{
-    width: 68%;
-    height: 70%;
+    width: 70.5%;
+    height: 135%;
+    margin-bottom: 25%;
+    padding-bottom: 4.5%;
 }
 
 .container-accompagnement{
@@ -404,12 +414,12 @@ img{
     background-color: #f1eff3;
     width: 100%;
     height: 70%;
-    margin-top: 60%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #421e4b;
+    padding-bottom: 25%;
 }
 
 .col-projet{
@@ -460,6 +470,167 @@ h3{
 .col-projet a:hover{
     background-color: transparent;
     color: #d92950;
+}
+
+.container-accomplissement{
+    border: 0px solid green;
+    background-color: #d92950;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding-bottom: 25%;
+}
+
+.container-expertise{
+    border: 0px solid green;
+    background-color: #fff;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30%;
+}
+#expert{
+    color: #424345;
+}
+
+.container-ready{
+    border: 0px solid green;
+    background-color: #ae3753;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25%;
+}
+
+.container-emploi{
+    border: 0px solid green;
+    background-color:#f1f0f3;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25%;
+}
+
+#emploi{
+    color: #4d4446;
+}
+#emploi>span{
+    color: #d92950;
+}
+.container-media{
+    border: 0px solid green;
+    background-color:#111;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18%;
+}
+#media{
+    margin-top: 7.5%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.container-media>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid #fff;
+    width: 50%;
+    margin-top: 2.5%;
+    margin-bottom: -8.5%;
+}
+
+#jeuneaf{
+    width: 16.5%;
+    height: 35%;
+}
+#gsma2{
+
+}
+#detijd{
+
+}
+#digitalaf{
+
+}
+#king{
+
+}
+
+.container-soutien{
+    border: 0px solid green;
+    background-color:#fff;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25%;
+}
+
+#soutien{
+    color: #424345;
+}
+
+.container-contact{
+    border: 0px solid green;
+    background-color:#231f2b;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 25%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>input, form>select{
+    border-style: none;
+}
+
+.form-haut{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.souform{
+    width: 45%;
+    height: 100%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-bas{
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contact{
+    color: #e1e0e2;
 }
 
 footer{
