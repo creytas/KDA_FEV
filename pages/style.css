@@ -92,7 +92,7 @@ nav .menu{
 
 .container{
     width: 100%;
-    height: 805%;
+    height: 905%;
     display: flex;
     flex-direction: column;
 }
@@ -258,7 +258,7 @@ img{
     display: flex;
     justify-content: space-around;
 }
-.img-col1>p{
+.img-col1 p{
     border: 0px solid navy;
     width: 100%;
     height: 42%;
@@ -276,26 +276,29 @@ img{
 
 #source-code{
     width: 20%;
-    height: 45.5%;
+    height: 55.5%;
     border-bottom: 2px solid #f50000;
     margin-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
 }
 #qualif-developpeur{
     width: 40%;
     height: 53%;
     margin-top: -16%;
-    margin-bottom: 40%;
+    margin-bottom: 30%;
     margin-left: 0.5%;
+    justify-content: center;
+    align-items: center;
 }
 #chat{
-    width: 20%;
+    width: 18%;
     height: 70.5%;
     border-bottom: 2px solid #f50000;
     margin-top: -0.5%;
+    padding-bottom: 10px;
 }
 #lang-maternelle{
-    width: 40%;
+    width: 100%;
     height: 53%;
     margin-top: -35.3%;
     margin-bottom: 60%;
@@ -306,10 +309,10 @@ img{
 
 #cup{
     width: 20%;
-    height: 55.5%;
+    height: 64.5%;
     border-bottom: 2px solid #f50000;
     margin-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
     
 }
 #prix{
@@ -319,16 +322,16 @@ img{
 }
 
 #earth{
-    width: 20%;
+    width: 27%;
     height: 55.5%;
     border-bottom: 2px solid #f50000;
-    padding-bottom: 5%;
+    padding-bottom: 15px;
+    margin-left: -67%;
 }
 #fuseau{
-    width: 45%;
+    width: 60%;
     height: 53%;
     margin-top: -33%;
-    margin-left: 1%;
 }
 
 .container-partnair{
@@ -418,40 +421,50 @@ img{
     flex-direction: column;
     align-items: center;
     color: #421e4b;
-    padding-bottom: 25%;
+    padding-bottom: 9.5%;
 }
 
 .col-projet{
-    width: 73.5%;
-    height: 60%;
+    width: 85.5%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #projet{
-    font-size: 2.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
     color: #3a1543;
+    margin-top: 7%;
+    margin-bottom: 3%;
 }
-
-h3{
-    color: #e3003e;
-}
-
 .col-projet div{
     width: 99%;
-    height: 71%;
+    height: 99%;
     padding: 1%;
     background-color: #fff;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 5%;
 }
 
 #realisation{
-    border-top: 4px solid #faf55a;
+    border-top: 10px solid #faf55a;
 }
+
 #integration{
-    border-top: 4px solid #e62f62;
+    border-top: 10px solid #e62f62;
     margin-left: 2%;
+}
+
+#realisation h3, #integration h3{
+    color: #e3003e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
 }
 
 .col-projet a{
@@ -464,6 +477,10 @@ h3{
     padding: 2.5%;
     text-decoration: none;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 .col-projet a:hover{
@@ -483,19 +500,38 @@ h3{
     padding-bottom: 25%;
 }
 
+#accompli{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
 .container-expertise{
     border: 0px solid green;
     background-color: #fff;
     width: 100%;
-    height: 70%;
+    height: 80%;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding-bottom: 30%;
 }
 #expert{
     color: #424345;
 }
+.skills{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .container-ready{
     border: 0px solid green;
@@ -504,8 +540,16 @@ h3{
     height: 70%;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding-bottom: 25%;
+}
+.col-ready{
+    display: flex;
+    justify-content: space-around;
+}
+.col-ready h3{
+    color: #fff;
 }
 
 .container-emploi{
@@ -559,19 +603,6 @@ h3{
     width: 16.5%;
     height: 35%;
 }
-#gsma2{
-
-}
-#detijd{
-
-}
-#digitalaf{
-
-}
-#king{
-
-}
-
 .container-soutien{
     border: 0px solid green;
     background-color:#fff;
