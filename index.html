@@ -11,7 +11,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -133,24 +134,48 @@
             <h2 id="accompli">Ce que nous avons développé</h2>
             <div class="img-work">
                 <div class="container-work">
-                    <img src="img/works/cofed.png" alt="site cofed">
+                    <a href="http://cofed.cd/" target="_blank">
+                        <img src="img/works/cofed.png" alt="site cofed">
+                    </a>
                     <div class="text-img">
-                        <div class="techno"></div>
-                        <div class="drapeau"><img src="img/Flag_of_Europe.svg" alt="drapeau union europeenne"></div>
+                        <div class="client">
+                            Client: Cofed <br>
+                            Site: https://cofed.cd/
+                        </div>
+                        <div class="drapeau">
+                            <span class="drapeau-pays"><img src="img/union-europeenne.svg" alt="drapeau union europeenne"></span>
+                            <span class="pays">UNION EUROPEENNE</span>
+                        </div>
                     </div>
                 </div>
                 <div class="container-work">
-                    <img src="img/works/digitalafrica.png" alt="site digital africa">
+                    <a href="http://tandemadvertising.com/" target="_blank">
+                        <img src="img/works/tandem.png" alt="site tandem">
+                    </a>
                     <div class="text-img">
-                        <div class="techno"></div>
-                        <div class="drapeau"><img src="img/Flag_of_France.svg" alt="drapeau francais">FRANCE</div>
+                        <div class="client">
+                            Client: Tandem Advertising <br>
+                            Site: https://tandemadvertising.com/
+                        </div>
+                        <div class="drapeau">
+                            <span class="drapeau-pays"><img src="img/switzerland.svg" alt="drapeau swisse"></span>
+                            <span class="pays">SUISSE</span>
+                        </div>
                     </div>
                 </div>
                 <div class="container-work">
-                    <img src="img/works/jaunecongo.png" alt="site jaune congo">
+                    <a href="http://jaunecongo.com/" target="_blank">
+                        <img src="img/works/jaunecongo.png" alt="site jaune congo">
+                    </a>
                     <div class="text-img">
-                        <div class="techno"></div>
-                        <div class="drapeau"><img src="img/Flag_of_the_Democratic_Republic_of_the_Congo.svg" alt="drapeau rdc">RDC</div>
+                        <div class="client">
+                            Client: Jaune Congo <br>
+                            Site: https://jaunecongo.com/
+                        </div>
+                        <div class="drapeau">
+                            <span class="drapeau-pays"><img src="img/rdc.svg" alt="drapeau rdc"></span>
+                            <span class="pays">RDC</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -216,35 +241,37 @@
         </section>
         <section class="container-contact">
             <h2 id="contact">Formulaire de contact</h2>
-            <p>Si vous souhaitez vous pré-inscrire a la Kinshasa Digital Academy veuillez remplir le <span>formulaire de pré-inscription</span></p>
+            <p id="msg-contact">Si vous souhaitez vous pré-inscrire a la Kinshasa Digital Academy veuillez remplir le <span>formulaire de pré-inscription</span>.</p>
             <form>
                 <div class="form-haut">
-                    <div class="souform">
-                        <label for="title">Quel titre vous décrit le mieux?</label>
+                    <div class="souform-left">
+                        <label for="title">Quel titre vous décrit le mieux?</label><br>
                         <select name="title" id="title">
                             <option value="0">&nbsp;</option>
                         </select>
-                        <input type="text" name="prenom" id="prenom" placeholder="Prénom">
-                        <input type="text" name="nom" id="nom" placeholder="Nom">
-                        <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
-                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <p><input type="text" name="prenom" id="prenom" placeholder="Prénom"></p>
+                        <p><input type="text" name="nom" id="nom" placeholder="Nom"></p>
+                        <p><input type="tel" name="telephone" id="telephone" placeholder="Téléphone"></p>
+                        <p><input type="email" name="email" id="email" placeholder="E-mail"></p>
                     </div>
-                    <div class="souform">
-                        <label for="secteur">Secteur d'activité</label>
+                    <div class="souform-right">
+                        <label for="secteur">Secteur d'activité</label><br>
                         <select name="secteur" id="secteur">
                             <option value="0">&nbsp;</option>
                         </select>
-                        <input type="text" name="entreprise" id="entreprise" placeholder="Nom de votre entreprise">
-                        <input type="url" name="web" id="web" placeholder="Site Web">
-                        <input type="text" name="ville" id="ville" placeholder="Ville">
+                        <p><input type="text" name="entreprise" id="entreprise" placeholder="Nom de votre entreprise"></p>
+                        <p><input type="url" name="web" id="web" placeholder="Site Web"></p>
+                        <p><input type="text" name="ville" id="ville" placeholder="Ville"></p>
                     </div>
                 </div>
                 <div class="form-bas">
-                    <label for="type-demande">Type de demande</label>
+                    <label for="type-demande">Type de demande</label><br>
                     <select name="type-demande" id="type-demande">
                         <option value="0">&nbsp;</option>
                     </select>
-                    <textarea name="text-demande" id="text-demande" placeholder="Demande: merci d'indiquer le maximum de précision afin qu;on puisse vous donner une reponse complete"></textarea>
+                    <p>
+                        <textarea name="text-demande" id="text-demande" placeholder="Demande: merci d'indiquer le maximum de précision afin qu'on puisse vous donner une reponse complete"></textarea>
+                    </p>
                 </div>
                 <p>Du a un nombre important de demandes, nous ne traiterons pas les messages concernant les inscriptions a la KDA, inscrivez-vous a l'aide du <a href="#">formulaire</a></p>
                 <p>Pour toute demande de devis, merci de nous donner le maximum de details possible afin de nous aider a vous repondre plus precisement possible</p>

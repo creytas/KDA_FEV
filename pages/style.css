@@ -517,14 +517,38 @@ img{
     width: 75%;
     height: 90%;
 }
-.drapeau{
-    width: 20%;
-    background-color: #fff;
-    color: transparent;
+.text-image{
+    border: 3px solid black;
+    display: flex;
+    width: 100%;
+    height: 40%;
 }
-.text-image .drapeau{
-    width: 20%;
-    height: 20%;
+.client{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+.drapeau{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.drapeau-pay{
+    width: 70%;
+    height: 70%;
+}
+.pays{
+    width: 65%;
+    background-color: #fff;
+    color: #d92950;
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    padding: 2.5%;
 }
 #accompli{
     font-family: 'Montserrat', sans-serif;
@@ -648,41 +672,71 @@ img{
     border: 0px solid green;
     background-color:#231f2b;
     width: 100%;
-    height: 70%;
+    height: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 25%;
 }
-form{
-    display: flex;
-    flex-direction: column;
+#msg-contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
 }
-form>input, form>select{
-    border-style: none;
+#msg-contact span{
+    color: #d32950;
 }
 
-.form-haut{
+form{
     width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.souform{
-    width: 45%;
-    height: 100%;
-    border: 3px solid white;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+form label{
+    color: #fff;
+    margin-left: 2%;
+}
+
+form input:focus, form select:focus, form textarea:focus{
+    outline: none;
+    border: 3px solid #5f226e;
+}
+.form-haut{
+    display: flex;
+    margin: 0% 5%;
+}
+.form-haut input, .form-haut select{
+    border-radius: 0px;
+    padding: 7px;
+    margin-left: 2.5%;
+    width: 98%;
+}
+.souform-left, .souform-right{
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    border: 0px solid white;
+}
+.souform-left{
+    margin-left: 1.5%;
+}
+.souform-right{
+    margin-left: 2%;
 }
 .form-bas{
-    border: 3px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: left;
+    border: 0px solid white;
+    margin: 0% 5%;
+}
+.form-bas textarea, .form-bas select{
+    border-radius: 0px;
+    padding: 7px;
+    margin-left: 2.5%;
+    width: 98%;
 }
 
 #contact{
