@@ -28,8 +28,9 @@ section{
 header{
     background-color: #d92950;
     width: 100%;
-    height: 12.5%;
+    height: 10.5%;
     display: flex;
+    align-items: center;
     position: fixed;
     z-index: 5;
 }
@@ -42,6 +43,7 @@ nav{
     display: flex;
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
+    margin-top: -2%;
 }
 li{
     font-family: 'Roboto', sans-serif;
@@ -67,8 +69,9 @@ nav .menu{
 }
 
 #logo-kda{
-    width: 7.5%;
+    width: 7%;
     height: 97%;
+    margin-top: 1%;
 }
 .menu a {
     display:block;
@@ -95,7 +98,7 @@ nav .menu{
 
 .container{
     width: 100%;
-    height: 905%;
+    height: 959%;
     display: flex;
     flex-direction: column;
 }
@@ -236,16 +239,14 @@ img{
     height: 100%;
 }
 
-#text-section{
-    border: 3px solid red;
-    width: 55%;
-    height: 70%;
+.text-section{
+    width: 50%;
+    height: 60%;
     display: flex;
-    flex-direction: column;
-    margin-top: 4%;
-    margin-left: -8.5%;
-    margin-bottom: -20%;
+    border: 3px solid black;
+    justify-content: center;
 }
+
 #dev{
     color: #424345;
     font-size: 40px;
@@ -253,90 +254,27 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-bottom: 20%;
-}
 
-.img-col1{
+}
+.row-developpeur{
     width: 100%;
-    height: 70%;
+    height: 50%;
     display: flex;
-    justify-content: space-around;
 }
-.img-col1 p{
-    border: 0px solid navy;
-    width: 100%;
-    height: 42%;
+
+.text-items{
+    width: 50%;
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #444547;
-    font-size: 20px;
-    line-height: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    
 }
 
-#source-code{
+.text-items img{
     width: 20%;
-    height: 55.5%;
-    border-bottom: 2px solid #f50000;
-    margin-top: 5%;
-    padding-bottom: 30px;
+    height: 25%;
+    border-bottom: 2px solid #d92950;
+    padding: 2%;
 }
-#qualif-developpeur{
-    width: 40%;
-    height: 53%;
-    margin-top: -16%;
-    margin-bottom: 30%;
-    margin-left: 0.5%;
-    justify-content: center;
-    align-items: center;
-}
-#chat{
-    width: 18%;
-    height: 70.5%;
-    border-bottom: 2px solid #f50000;
-    margin-top: -0.5%;
-    padding-bottom: 10px;
-}
-#lang-maternelle{
-    width: 100%;
-    height: 53%;
-    margin-top: -35.3%;
-    margin-bottom: 60%;
-    margin-left: 4.5%;
-    padding-right: 22.4%;
-    padding-top: 1%;
-}
-
-#cup{
-    width: 20%;
-    height: 64.5%;
-    border-bottom: 2px solid #f50000;
-    margin-top: 1%;
-    padding-bottom: 30px;
-    
-}
-#prix{
-    margin-top: -16%;
-    width: 45%;
-    height: 53%;
-}
-
-#earth{
-    width: 27%;
-    height: 55.5%;
-    border-bottom: 2px solid #f50000;
-    padding-bottom: 15px;
-    margin-left: -67%;
-}
-#fuseau{
-    width: 60%;
-    height: 53%;
-    margin-top: -33%;
-}
-
 .container-partnair{
     background-color: #d92950;
     text-align: center;
@@ -538,10 +476,11 @@ img{
     height: 100%;
     display: flex;
     align-items: center;
+    text-align: right;
 }
 .drapeau-pay{
-    width: 70%;
-    height: 70%;
+    width: 7%;
+    height: 7%;
 }
 .pays{
     width: 65%;
@@ -660,15 +599,48 @@ img{
     border: 0px solid green;
     background-color:#fff;
     width: 100%;
-    height: 70%;
+    height: 50%;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
 }
 
+.soutien-partnair{
+    display: flex;
+    width: 268px;
+    height: 129px;
+    align-items: flex-start;
+    margin-left: 4.5%;
+    margin-bottom: 15%;
+}
+.img-text-partnair{
+    width: 100%;
+    height: 100%;
+    margin: 5.6%;
+    text-align: left;
+    font-family:'Monserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #424345;
+}
+.img-text-partnair img{
+    width: 270px;
+    height: 168px;
+    border-radius: 10px;
+}
+.twitter{
+    margin: 5.5%;
+}
 #soutien{
     color: #424345;
+    margin-top: 7.5%;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .container-contact{
@@ -680,7 +652,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 25%;
+    padding-bottom: 9%;
 }
 #contact{
     font-family: 'Montserrat', sans-serif;
@@ -771,8 +743,9 @@ button{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    width: 10%;
+    width: 9%;
     margin:1% ;
+    text-align: center;
     border: 2px solid #d32950;
     border-radius: 15px;
     color: #fff;
@@ -796,6 +769,7 @@ footer{
 .container-foot1{
     margin-left: 7%;
     font-family: 'Roboto', sans-serif;
+    font-style: none;
     font-size: 22px;
     font-weight: 400;
     line-height: 34px;
@@ -820,7 +794,7 @@ footer{
 }
 .social{
     padding: 0%;
-    border: 3px solid rgb(23, 92, 197);
+    border: 0px solid rgb(23, 92, 197);
     width: 15%;
     height: 100%;
     list-style-type: none;
@@ -833,4 +807,7 @@ footer{
 svg{
     width: 55%;
     height: 55%;
+}
+.container-champs{
+    display: flex;
 }
