@@ -283,7 +283,8 @@ img{
     border: 0px solid green;
     width: 100%;
     height: 55%;
-    padding-bottom: 9%;
+    padding-bottom: -15%;
+    margin-bottom: -20%;
 }
 #work{
     font-size: 40px;
@@ -317,37 +318,31 @@ img{
     border:0px solid steelblue;
     display: flex;
     justify-content: center;
-    width: 48%;
-    height: 68.5%;
+    width: 234px;
+    height: 200px;
+    margin: 15% auto;
 }
 
 #orange{
-    width: 41.5%;
-    height: 135%;
-    margin-bottom: 25%;
-    padding-bottom: 4.5%;
+    width: 80px;
+    height: 80px;
 }
 #gsma{
-    width: 39.5%;
-    height: 110%;
-    margin-bottom: 25%;
-    padding-bottom: 4.5%;
+    width: 152.283px;
+    height: 59.9833px;
 }
 #texaf{
-    width: 41.5%;
-    height: 135%;
-    margin-bottom: 25%;
-    padding-bottom: 4.5%;
+    width: 72.3px;
+    height: 80px;
+
 }
 #elan{
-    width: 50.5%;
-    height: 135%;
-    margin-bottom: 25%;
-    padding-bottom: 4.5%;
+    width: 82.3px;
+    height: 80px;
 }
 #digital{
-    width: 70.5%;
-    height: 135%;
+    width: 160px;
+    height: 76px;
     margin-bottom: 25%;
     padding-bottom: 4.5%;
 }
@@ -535,6 +530,51 @@ img{
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 25%;
+    margin-bottom: -15%;
+}
+#ready{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #fff;
+
+}
+.ready-img{
+    width: 300px;
+    height: 124px;
+    justify-content: center;
+    align-items: center;
+}
+.img-ready{
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.appel{
+    width: 34px;
+    height: 40px;
+    margin: 14px auto;
+}
+#profils{
+    width: 34px;
+    height: 17px;
+    margin: 20px auto;
+}
+#onboarding{
+    width: 34px;
+    height: 32px;
+    margin: 14px auto;
+}
+
+.text-ready{
+    width: 270px;
+    height: 30px;
+    margin: 0px auto;
 }
 .col-ready{
     display: flex;
@@ -618,7 +658,7 @@ img{
 .img-text-partnair{
     width: 100%;
     height: 100%;
-    margin: 5.6%;
+    margin: 7%;
     text-align: left;
     font-family:'Monserrat', sans-serif; 
     font-size: 16px;
@@ -633,6 +673,9 @@ img{
 }
 .twitter{
     margin: 5.5%;
+}
+.twitter a{
+    color: #ff5098;
 }
 #soutien{
     color: #424345;
@@ -744,13 +787,13 @@ button{
     font-weight: 700;
     line-height: 24px;
     width: 9%;
-    margin:1% ;
+    margin:1 1.5% ;
     text-align: center;
     border: 2px solid #d32950;
     border-radius: 15px;
     color: #fff;
     background-color: #d32950;
-    padding: 15px 25px;
+    padding: 15px 18px;
     margin-left: 7%;
 }
 button:hover{
@@ -814,4 +857,16 @@ svg{
 }
 .container-champs{
     display: flex;
+}
+.container-champs input{
+    width: 416.467px;
+    height: 58px;
+    border-radius: 0px;    
+}
+#valider{
+    width: 154.533px;
+    height: 58px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -1.2%;
 }
